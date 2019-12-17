@@ -1,0 +1,29 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Thu Dec 12 11:58:59 2019
+URL_BASE: http://traverxec/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://traverxec/ ----
+==> DIRECTORY: http://traverxec/css/
+==> DIRECTORY: http://traverxec/icons/
+==> DIRECTORY: http://traverxec/img/
++ http://traverxec/index.html (CODE:200|SIZE:15674)
+==> DIRECTORY: http://traverxec/js/
+==> DIRECTORY: http://traverxec/lib/
+
+---- Entering directory: http://traverxec/css/ ----
+
+---- Entering directory: http://traverxec/icons/ ----
+
+---- Entering directory: http://traverxec/img/ ----
+==> DIRECTORY: http://traverxec/img/portfolio/
