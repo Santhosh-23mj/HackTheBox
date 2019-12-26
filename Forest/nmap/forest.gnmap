@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Fri Dec 13 16:51:24 2019 as: nmap -sC -sV -oA nmap/forest 10.10.10.161
+Host: 10.10.10.161 ()	Status: Up
+Host: 10.10.10.161 ()	Ports: 53/open/tcp//domain?///, 88/open/tcp//kerberos-sec//Microsoft Windows Kerberos (server time: 2019-12-13 11:28:52Z)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 389/open/tcp//ldap//Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)/, 445/open/tcp//microsoft-ds//Windows Server 2016 Standard 14393 microsoft-ds (workgroup: HTB)/, 464/open/tcp//kpasswd5?///, 593/open/tcp//ncacn_http//Microsoft Windows RPC over HTTP 1.0/, 636/open/tcp//tcpwrapped///, 3268/open/tcp//ldap//Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)/, 3269/open/tcp//tcpwrapped///	Ignored State: closed (989)
+# Nmap done at Fri Dec 13 16:55:05 2019 -- 1 IP address (1 host up) scanned in 221.66 seconds
