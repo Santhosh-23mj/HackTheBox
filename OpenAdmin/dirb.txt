@@ -1,0 +1,32 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Sat Jan 11 21:31:01 2020
+URL_BASE: http://10.10.10.171/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.171/ ----
+==> DIRECTORY: http://10.10.10.171/artwork/
++ http://10.10.10.171/index.html (CODE:200|SIZE:10918)
+==> DIRECTORY: http://10.10.10.171/music/
++ http://10.10.10.171/server-status (CODE:403|SIZE:277)
+
+---- Entering directory: http://10.10.10.171/artwork/ ----
++ Remaining scan stats:
+Words: 4567 | Directories: 1
++ Going to next directory.
+
+---- Entering directory: http://10.10.10.171/music/ ----
++ Going to next directory.
+
+-----------------
+END_TIME: Sat Jan 11 22:19:33 2020
+DOWNLOADED: 4705 - FOUND: 2
